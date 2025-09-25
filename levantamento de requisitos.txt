@@ -1,0 +1,51 @@
+EMPRESA DE ASSISTÊNCIA TÉCNICA
+NOME DA EMPRESA: Central Tech
+INTEGRANTES DO GRUPO: Maria Alice,Julie,Karen e João Pedro
+
+1. OBJETIVO DO SISTEMA
+*criar um programa que mantenha o cadastro dos clientes com todos os seus dados.
+
+2. REQUISITOS FUNCIONAIS
+*Cadastro de clientes com dados completos.
+*Gerenciamento de serviços e assitência técnica prestados
+*Vendas de produtos
+*Cadastro de produtos do cliente(ex: celular, notebook, etc) e acessórios.
+*controle de estoque
+*Geração de relatórios
+*Vendas e compras online
+*Exibição da logo da loja no sistema
+*Cadastro e controle de fornecedores.
+*Emissão de vaucher de desconto em aniversários dos clientes
+*Coleta de feedback dos clientes
+*Integração de redes sociais para a divulgação da empresa
+
+*BANCO DE DADOS
+TABELA CLIENTES:
+-CPF(CHAVE PRIMÁRIA)
+-NOME
+-TELEFONE 
+-DATA DE NASCIMENTO
+
+*PRODUTOS
+-NOME
+-QUANTIDADE
+-FORNECEDOR(CHAVE EXTRANGEIRA)
+-TIPO DE PRODUTOS 
+-CÓDIGO DE BARRAS(CHAVE PRIMÁRIA)
+
+*SERVIÇOS
+-TIPOS DE SERVIÇOS
+-PREÇO DO SERVIÇO
+-ID DO SERVIÇO(CHAVE PRIMÁRIA)
+-DESCRIÇÃO DO SERVIÇO
+
+*FORNECEDORES
+-NOME
+-TELEFONE
+-CNPJ(CHAVE PRIMÁRIA)
+-PRODUTO FORNECIDO
+
+*VENDAS
+-QUANTIDADE
+-VALOR DO PRODUTO
+-CÓDIGO DE BARRAS
